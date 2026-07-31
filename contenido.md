@@ -1,7 +1,7 @@
-# Brief — Landing Dra. Sofía Mendoza, Pediatría
+# Brief — Landing Dra. Nubia Rangel, Pediatría
 
 ## Marca
-**Dra. Sofía Mendoza** · Pediatría y cuidado infantil  
+**Dra. Nubia Rangel** · Pediatría y cuidado infantil  
 Eslogan corto: *Crecer con calma*
 
 ## Hero
@@ -13,8 +13,15 @@ Eslogan corto: *Crecer con calma*
 ## Sobre mí
 Pediatra certificada con más de 10 años acompañando a familias desde el primer control hasta la adolescencia. Mi enfoque combina evidencia médica con escucha real: cada visita es tiempo para entender, orientar y cuidar sin prisa.
 
-Formación: Medicina — UNAM · Especialidad en Pediatría — Hospital Infantil  
-Cédula profesional: (placeholder)
+### Formación
+- Egresada de Medicina de la Universidad Nacional Autónoma de México (UNAM)
+- Egresada como Pediatra del Instituto Nacional de Pediatría
+
+### Experiencia
+- Pediatra en Hospital Infantil del Teletón de Oncología, Querétaro
+- Pediatra en Hospital General San José Iturbide, Guanajuato
+- Pediatra en urgencias en Hospital Santo Tomás, Querétaro
+- Pediatra en urgencias en Hospital Star Médica, Querétaro
 
 ## Servicios
 1. **Control del niño sano** — Seguimiento de crecimiento, desarrollo y vacunas.
@@ -26,13 +33,11 @@ Cédula profesional: (placeholder)
 ## Por qué elegirme
 1. **Escucha primero** — Tiempo real para tus dudas, sin prisas.
 2. **Plan claro** — Saldrás con pasos concretos y seguimiento.
-3. **Cercanía** — Comunicación directa por WhatsApp para dudas posteriores a la consulta.
+3. **Cercanía** — Atención cálida y cercana para que niños y padres se sientan en confianza.
 
 ## Contacto
-- WhatsApp: https://wa.me/525551234567
-- Teléfono: +52 55 5123 4567
-- Dirección: Consultorio 402, Torre Médica Norte, CDMX
-- Horario: Lun–Vie 9:00–14:00 y 16:00–19:00 · Sáb 9:00–13:00
+- Agendar cita: https://www.doctoralia.com.mx/perfil/nubia-rangel-chavez#
+- Dirección: Pediatra Hospital Moscati Consultorio 3019-A, Av. De las Ciencias 2058, Juriquilla 76230
 
 ## Legal
 Este sitio es informativo. En caso de urgencia, acude a urgencias o llama al 911.

@@ -99,16 +99,17 @@ a:hover {
   inset: 0 0 auto;
   z-index: 100;
   height: var(--header-h);
+  background: rgba(247, 249, 248, 0.82);
+  backdrop-filter: blur(14px) saturate(1.15);
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  border-bottom: 1px solid var(--color-line);
   transition: background 0.35s var(--ease-out), backdrop-filter 0.35s var(--ease-out),
-    border-color 0.35s var(--ease-out);
-  border-bottom: 1px solid transparent;
+    border-color 0.35s var(--ease-out), box-shadow 0.35s var(--ease-out);
 }
 
 .site-header.is-scrolled {
-  background: rgba(247, 249, 248, 0.72);
-  backdrop-filter: blur(16px) saturate(1.2);
-  -webkit-backdrop-filter: blur(16px) saturate(1.2);
-  border-bottom-color: var(--color-line);
+  background: rgba(247, 249, 248, 0.94);
+  box-shadow: 0 10px 30px rgba(26, 46, 40, 0.06);
 }
 
 .site-header__inner {
@@ -146,15 +147,18 @@ a:hover {
 
 .brand__name {
   font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
 }
 
 .brand__tag {
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-ink-muted);
+  color: var(--color-accent);
 }
 
 .site-nav {
@@ -165,7 +169,7 @@ a:hover {
 
 .site-nav__list {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.35rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -173,13 +177,15 @@ a:hover {
 
 .site-nav__list a {
   text-decoration: none;
-  font-size: 0.95rem;
-  color: var(--color-ink-muted);
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--color-ink);
   transition: color 0.2s ease;
 }
 
 .site-nav__list a:hover {
-  color: var(--color-ink);
+  color: var(--color-accent);
 }
 
 .nav-toggle {
@@ -400,8 +406,48 @@ a:hover {
   max-width: 42ch;
 }
 
-.about__copy p + p {
-  margin-top: 1rem;
+.about__copy p + p,
+.about__credentials {
+  margin-top: 1.5rem;
+}
+
+.about__credentials h3 {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.about__credentials ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 48ch;
+}
+
+.about__credentials li {
+  position: relative;
+  padding: 0.45rem 0 0.45rem 1rem;
+  color: var(--color-ink-muted);
+  border-bottom: 1px solid var(--color-line);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.about__credentials li:last-child {
+  border-bottom: none;
+}
+
+.about__credentials li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.95em;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: var(--color-accent, var(--color-brand));
 }
 
 /* Services — clean list, not a card dashboard */
@@ -635,6 +681,10 @@ a:hover {
   .site-nav__list {
     flex-direction: column;
     gap: 0.85rem;
+  }
+
+  .site-nav__list a {
+    font-size: 1.05rem;
   }
 
   .about__grid,
