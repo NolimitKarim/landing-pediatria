@@ -1,4 +1,4 @@
-# Dra. Sofía Mendoza — Landing de pediatría
+# Dra. Nubia Rangel — Landing de pediatría
 
 Landing page para portafolio: Vite + HTML/CSS/JS vanilla, diseño aireado y animaciones suaves al estilo Apple.
 
