@@ -1,6 +1,6 @@
 # Dra. Nubia Rangel — Landing de pediatría
 
-Landing page para portafolio: Vite + HTML/CSS/JS vanilla, diseño aireado y animaciones suaves al estilo Apple.
+Landing page para portafolio: Vite + HTML/CSS/JS vanilla, diseño aireado y animaciones suaves.
 
 ## Desarrollo local
 
