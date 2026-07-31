@@ -25,3 +25,10 @@ Edita textos y datos de contacto en `index.html` (o usa `contenido.md` como refe
 ## Despliegue
 
 Conecta el repositorio a [Vercel](https://vercel.com). Preset: Vite.
+
+
+## Sitio en vivo
+
+https://nolimitkarim.github.io/landing-pediatria/
+
+Para Vercel (opcional): importa el repo en [vercel.com/new](https://vercel.com/new) — preset Vite.
